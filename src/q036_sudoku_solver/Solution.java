@@ -10,9 +10,12 @@ import java.util.Arrays;
 
 /**
  * <pre>
- * Valid Sudoku
- * Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
- * The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
+ * Sudoku Resolver
+ * Write a program to solve a Sudoku puzzle by filling the empty cells.
+ * 
+ * Empty cells are indicated by the character '.'.
+ * 
+ * You may assume that there will be only one unique solution. *
  * </pre>
  * 
  * @author leo
