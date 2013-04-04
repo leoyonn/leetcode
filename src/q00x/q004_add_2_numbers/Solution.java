@@ -1,4 +1,4 @@
-package q004_add_2_numbers;
+package q00x.q004_add_2_numbers;
 
 public class Solution {
 	/**

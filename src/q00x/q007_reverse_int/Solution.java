@@ -1,4 +1,4 @@
-package q007_reverse_int;
+package q00x.q007_reverse_int;
 
 public class Solution {
 	public static void main(String [] args) {

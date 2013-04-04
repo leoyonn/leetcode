@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-3
  */
-package q041_trapping_rain_water;
+package q04x.q041_trapping_rain_water;
 
 
 /**

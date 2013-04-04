@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q025_remove_dup_from_sorted_array;
+package q02x.q025_remove_dup_from_sorted_array;
 
 /**
  * @author leo

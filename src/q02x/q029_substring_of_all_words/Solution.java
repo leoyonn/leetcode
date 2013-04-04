@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q029_substring_of_all_words;
+package q02x.q029_substring_of_all_words;
 
 import java.util.ArrayList;
 import java.util.HashMap;

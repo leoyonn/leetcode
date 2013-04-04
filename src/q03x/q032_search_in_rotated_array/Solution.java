@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-2
  */
-package q032_search_in_rotated_array;
+package q03x.q032_search_in_rotated_array;
 
 
 /**

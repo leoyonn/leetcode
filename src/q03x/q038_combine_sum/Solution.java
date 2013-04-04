@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-3
  */
-package q038_combine_sum;
+package q03x.q038_combine_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,7 +19,7 @@ import java.util.List;
  * 
  * Note:
  * All numbers (including target) will be positive integers.
- * Elements in a combination (a1, a2, �?, ak) must be in non-descending order. (ie, a1 ? a2 ? �?? ak).
+ * Elements in a combination (a1, a2, 锟�, ak) must be in non-descending order. (ie, a1 ? a2 ? 锟�? ak).
  * The solution set must not contain duplicate combinations.
  * For example, given candidate set 2,3,6,7 and target 7, 
  * A solution set is: 

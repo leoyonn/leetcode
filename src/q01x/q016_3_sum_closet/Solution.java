@@ -1,4 +1,4 @@
-package q016_3_sum_closet;
+package q01x.q016_3_sum_closet;
 
 import java.util.Arrays;
 

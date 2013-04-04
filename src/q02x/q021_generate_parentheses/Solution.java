@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-30
  */
-package q021_generate_parentheses;
+package q02x.q021_generate_parentheses;
 
 import java.util.ArrayList;
 

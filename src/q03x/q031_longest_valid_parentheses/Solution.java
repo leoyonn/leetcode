@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-1
  */
-package q031_longest_valid_parentheses;
+package q03x.q031_longest_valid_parentheses;
 
 import java.util.Stack;
 

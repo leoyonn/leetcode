@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q023_swap_nodes_inpair;
+package q02x.q023_swap_nodes_inpair;
 
 
 /**

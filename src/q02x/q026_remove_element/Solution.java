@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q026_remove_element;
+package q02x.q026_remove_element;
 
 /**
  * @author leo

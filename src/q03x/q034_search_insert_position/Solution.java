@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-2
  */
-package q034_search_insert_position;
+package q03x.q034_search_insert_position;
 
 
 /**

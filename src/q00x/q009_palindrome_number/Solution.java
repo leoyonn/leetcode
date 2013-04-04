@@ -1,4 +1,4 @@
-package q009_palindrome_number;
+package q00x.q009_palindrome_number;
 
 public class Solution {
 	public static void main(String [] args) {

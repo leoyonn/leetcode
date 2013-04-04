@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-3
  */
-package q040_first_missing_positive;
+package q04x.q040_first_missing_positive;
 
 
 /**

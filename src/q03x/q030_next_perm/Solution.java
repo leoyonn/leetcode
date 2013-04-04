@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-1
  */
-package q030_next_perm;
+package q03x.q030_next_perm;
 
 import java.util.Arrays;
 

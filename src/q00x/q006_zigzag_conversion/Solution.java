@@ -1,4 +1,4 @@
-package q006_zigzag_conversion;
+package q00x.q006_zigzag_conversion;
 
 public class Solution {
 	public static void main(String [] args) {

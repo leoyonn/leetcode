@@ -1,4 +1,4 @@
-package q005_longest_palindrom_sub;
+package q00x.q005_longest_palindrom_sub;
 
 public class Solution {
 	public static void main(String [] args) {

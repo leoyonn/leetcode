@@ -1,4 +1,4 @@
-package q008_atoi;
+package q00x.q008_atoi;
 
 public class Solution {
 	public static void main(String [] args) {

@@ -1,4 +1,4 @@
-package q003_longest_sub_no_repeat;
+package q00x.q003_longest_sub_no_repeat;
 
 
 public class Solution {

@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-2
  */
-package q036_sudoku_solver;
+package q03x.q036_sudoku_solver;
 
 import java.util.Arrays;
 

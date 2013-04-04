@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-30
  */
-package q020_valid_parentheses;
+package q02x.q020_valid_parentheses;
 
 import java.util.Stack;
 

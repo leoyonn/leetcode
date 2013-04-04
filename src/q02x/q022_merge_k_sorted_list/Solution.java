@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q022_merge_k_sorted_list;
+package q02x.q022_merge_k_sorted_list;
 
 import java.util.ArrayList;
 import java.util.Comparator;

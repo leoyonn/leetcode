@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-2
  */
-package q035_valid_sudoku;
+package q03x.q035_valid_sudoku;
 
 import java.util.Arrays;
 

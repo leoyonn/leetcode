@@ -1,4 +1,4 @@
-package q001_two_sum;
+package q00x.q001_two_sum;
 import java.util.HashMap;
 import java.util.Map;
 

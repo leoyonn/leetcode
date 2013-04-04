@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-2
  */
-package q033_search_for_a_range;
+package q03x.q033_search_for_a_range;
 
 
 /**

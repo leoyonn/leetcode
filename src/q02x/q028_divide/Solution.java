@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q028_divide;
+package q02x.q028_divide;
 
 /**
  * @author leo

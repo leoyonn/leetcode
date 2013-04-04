@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q024_reverse_nodes_in_k;
+package q02x.q024_reverse_nodes_in_k;
 
 /**
  * @author leo

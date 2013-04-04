@@ -1,4 +1,4 @@
-package q015_3_sum;
+package q01x.q015_3_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

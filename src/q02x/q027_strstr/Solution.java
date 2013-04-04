@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-3-31
  */
-package q027_strstr;
+package q02x.q027_strstr;
 
 /**
  * @author leo

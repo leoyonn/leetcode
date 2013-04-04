@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-3
  */
-package q042_multiply_strings;
+package q04x.q042_multiply_strings;
 
 
 

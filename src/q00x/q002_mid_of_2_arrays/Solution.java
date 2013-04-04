@@ -1,4 +1,4 @@
-package q002_mid_of_2_arrays;
+package q00x.q002_mid_of_2_arrays;
 
 
 public class Solution {

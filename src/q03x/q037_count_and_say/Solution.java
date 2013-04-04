@@ -3,7 +3,7 @@
  * @author leo
  * @date 2013-4-3
  */
-package q037_count_and_say;
+package q03x.q037_count_and_say;
 
 import java.util.HashMap;
 import java.util.Map;
