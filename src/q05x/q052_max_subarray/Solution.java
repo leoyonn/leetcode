@@ -5,7 +5,6 @@
  */
 package q05x.q052_max_subarray;
 
-import java.util.Arrays;
 
 /**
  * <pre>
