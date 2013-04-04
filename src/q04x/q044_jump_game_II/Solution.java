@@ -5,9 +5,6 @@
  */
 package q04x.q044_jump_game_II;
 
-
-
-
 /**
  * <pre>
  * Jump Game II

@@ -5,9 +5,6 @@
  */
 package q04x.q043_wildchar_matching;
 
-
-
-
 /**
  * <pre>
  *  Wildcard Matching

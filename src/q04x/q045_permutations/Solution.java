@@ -7,9 +7,6 @@ package q04x.q045_permutations;
 
 import java.util.ArrayList;
 
-
-
-
 /**
  * <pre>
  * Permutations
