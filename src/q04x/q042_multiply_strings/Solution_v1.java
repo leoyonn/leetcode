@@ -16,9 +16,9 @@ package q04x.q042_multiply_strings;
  * 
  * @author leo
  */
-public class Solution {
+public class Solution_v1 {
     public static void main(String [] args) {
-        Solution s = new Solution();
+        Solution_v1 s = new Solution_v1();
         long l = 19000L;
         System.out.println(l * l);
         System.out.println(s.multiply(String.valueOf(l), String.valueOf(l)));

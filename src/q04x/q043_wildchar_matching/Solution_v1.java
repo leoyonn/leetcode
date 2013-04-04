@@ -33,9 +33,9 @@ package q04x.q043_wildchar_matching;
  * 
  * @author leo
  */
-public class Solution {
+public class Solution_v1 {
     public static void  main(String [] args) {
-        Solution s = new Solution();
+        Solution_v1 s = new Solution_v1();
         System.out.println(s.isMatch("abaaa", "*ba?*"));
     }
 
