@@ -30,7 +30,7 @@ public class Solution_v2 {
             c[A[i]] ++;
         }
         Arrays.fill(A, 0, c[0], 0);
-        Arrays.fill(A, c[0], c[1], 1);
-        Arrays.fill(A, c[1], c[2], 2);
+        Arrays.fill(A, c[0], c[1] += c[0], 1);
+        Arrays.fill(A, c[1], c[2] += c[1], 2);
     }
 }
