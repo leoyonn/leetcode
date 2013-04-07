@@ -34,7 +34,11 @@ public class Solution {
         			continue;
         		}
 	    		int expect = target - num[i] - num[o];
-	    		for (int j = o + 1, k = num.length - 1; j < k;) {
+                int j = o + 1, k = num.length - 1;
+                if (num[j] + num[j + 1] > expect || num[k - 1] + num[k] < expect) {
+                    continue;
+                }
+	    		while (j < k) {
 	    			int infact = num[j] + num[k]; 
 	    			if (infact == expect) {
 	    				add(res, num[i], num[o], num[j], num[k]);

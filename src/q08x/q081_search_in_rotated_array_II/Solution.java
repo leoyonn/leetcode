@@ -8,15 +8,13 @@ package q08x.q081_search_in_rotated_array_II;
 
 /**
  * <pre>
- * Search in Rotated Sorted Array
- * Suppose a sorted array is rotated at some pivot unknown to you beforehand.
+ * Search in Rotated Sorted Array II 247 / 659
+ * Follow up for "Search in Rotated Sorted Array":
+ * What if duplicates are allowed?
  * 
- * (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+ * Would this affect the run-time complexity? How and why?
  * 
- * You are given a target value to search.
- *  If found in the array return its index, otherwise return -1.
- * 
- * You may assume no duplicate exists in the array.
+ * Write a function to determine if a given target is in the array.
  * </pre>
  * 
  * @author leo
@@ -30,33 +28,34 @@ public class Solution {
         System.out.println(s.search(a, 0));
     }
 
-    public int search(int[] A, int target) {
+    public boolean search(int[] A, int target) {
         if (A == null || A.length == 0) {
-            return 0;
+            return false;
         }
         int l = 0, r = A.length - 1, m;
         while (l <= r) {
             m = l + (r - l) / 2;
             if (A[m] == target) {
-                return m;
+                return true;
             } else if (m == l) { // 1 or 2 values
-                return A[r] == target ? r : -1;
+                return A[r] == target;
             }
             if (A[m] > A[l]) { // divide in second half
-                if (A[m] < target || A[l] > target) {
-                    l = m + 1;
-                } else {
-                    r = m - 1;
-                }
-            } else { // divide in first half
-                if (A[r] < target || A[m] > target) {
+                if (A[m] > target && target >= A[l]) {
                     r = m - 1;
                 } else {
                     l = m + 1;
                 }
+            } else if (A[m] < A[l]) { // divide in first half
+                if (A[r] >= target && A[m] < target) {
+                    l = m + 1;
+                } else {
+                    r = m - 1;
+                }
+            } else {
+                l ++;
             }
         }
-        return -1;
+        return false;
     }
-
 }
