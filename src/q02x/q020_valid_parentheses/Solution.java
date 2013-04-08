@@ -5,9 +5,17 @@
  */
 package q02x.q020_valid_parentheses;
 
-import java.util.Stack;
 
 /**
+ * <pre>
+ * Valid Parentheses 539 / 1387
+ * Given a string containing just the characters '(', ')', '{', '}', '[' and ']', 
+ * determine if the input string is valid.
+ * 
+ * The brackets must close in the correct order, "()" and "()[]{}" are all valid 
+ * but "(]" and "([)]" are not.
+ * </pre>
+ * 
  * @author leo
  */
 public class Solution {
@@ -17,15 +25,17 @@ public class Solution {
         } else if ((s.length() & 1) == 1) {
             return false;
         }
-        Stack<Character> stack = new Stack<Character>();
-        for (char c: s.toCharArray()) {
+        char[] arr = s.toCharArray();
+        int i = -1, j = 0;
+        for (; j < arr.length; j ++) {
+            char c = arr[j];
             if (c == '{' || c == '[' || c == '(') {
-                stack.push(c);
+                arr[++i] = c;
             } else {
-                if (stack.isEmpty()) {
+                if (i <= 0) {
                     return false;
                 }
-                char pair = stack.pop();
+                char pair = arr[i --];
                 if (        pair == '{' && c == '}'
                         ||  pair == '[' && c == ']'
                         ||  pair == '(' && c == ')') {
@@ -34,10 +44,9 @@ public class Solution {
                 return false;
             }
         }
-        if (!stack.isEmpty()) {
+        if (i >= 0) {
             return false;
         }
         return true;
     }
-
 }

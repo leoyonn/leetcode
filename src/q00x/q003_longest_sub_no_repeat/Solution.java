@@ -1,6 +1,20 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q00x.q003_longest_sub_no_repeat;
 
-
+/**
+ * <pre>
+ * Longest Substring Without Repeating Characters 787 / 2551
+ * Given a string, find the length of the longest substring without repeating characters. 
+ * For example, the longest substring without repeating letters for "abcabcbb" is "abc", 
+ * which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
     
     public static void main(String[] args) {

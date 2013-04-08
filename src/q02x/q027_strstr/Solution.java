@@ -1,11 +1,18 @@
 /**
  * Solution.java
+ * 
  * @author leo
  * @date 2013-3-31
  */
 package q02x.q027_strstr;
 
 /**
+ * <pre>
+ * Implement strStr() 598 / 1709
+ * Returns a pointer to the first occurrence of needle in haystack, 
+ * or null if needle is not part of haystack.
+ * </pre>
+ * 
  * @author leo
  */
 public class Solution {

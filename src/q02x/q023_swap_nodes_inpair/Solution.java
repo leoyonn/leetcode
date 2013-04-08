@@ -7,6 +7,16 @@ package q02x.q023_swap_nodes_inpair;
 
 
 /**
+ * <pre>
+ * Swap Nodes in Pairs 529 / 1199
+ * Given a linked list, swap every two adjacent nodes and return its head.
+ * 
+ * For example,
+ * Given 1->2->3->4, you should return the list as 2->1->4->3.
+ * Your algorithm should use only constant space. You may not modify the values in the list, 
+ * only nodes itself can be changed.
+ * </pre>
+ * 
  * @author leo
  */
 public class Solution {

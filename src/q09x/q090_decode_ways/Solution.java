@@ -5,10 +5,6 @@
  */
 package q09x.q090_decode_ways;
 
-
-
-
-
 /**
  * <pre>
  * Decode Ways 477 / 1848

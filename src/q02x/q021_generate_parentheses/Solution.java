@@ -8,6 +8,14 @@ package q02x.q021_generate_parentheses;
 import java.util.ArrayList;
 
 /**
+ * <pre>
+ * Generate Parentheses 593 / 1513
+ * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+ * 
+ * For example, given n = 3, a solution set is:
+ * "((()))", "(()())", "(())()", "()(())", "()()()"
+ * </pre>
+ * 
  * @author leo
  */
 public class Solution {

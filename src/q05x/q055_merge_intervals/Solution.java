@@ -11,7 +11,7 @@ import java.util.Comparator;
 
 /**
  * <pre>
- * Merge IntervalsMar 27 '12
+ * Merge Intervals
  * Given a collection of intervals, merge all overlapping intervals.
  * 
  * For example,

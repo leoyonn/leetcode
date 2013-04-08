@@ -1,8 +1,24 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q01x.q016_3_sum_closet;
 
 import java.util.Arrays;
 
-
+/**
+ * <pre>
+ * 3Sum Closest 415 / 1027
+ * Given an array S of n integers, find three integers in S such that the sum is closest to 
+ * a given number, target. Return the sum of the three integers. 
+ * You may assume that each input would have exactly one solution.
+ *     For example, given array S = {-1 2 1 -4}, and target = 1.
+ *     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();

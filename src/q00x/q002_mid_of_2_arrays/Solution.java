@@ -1,6 +1,20 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q00x.q002_mid_of_2_arrays;
 
-
+/**
+ * <pre>
+ * Median of Two Sorted Arrays 535 / 3142
+ * There are two sorted arrays A and B of size m and n respectively. 
+ * Find the median of the two sorted arrays. 
+ * The overall run time complexity should be O(log (m+n)).
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
     
     public static void main(String[] args) {
@@ -14,6 +28,17 @@ public class Solution {
     	return (k & 1) == 1;
     }
 
+    /**
+     * find kth from A[ia, ia + sa], B[ib, ib + sb].
+     * @param A
+     * @param ia
+     * @param sa
+     * @param B
+     * @param ib
+     * @param sb
+     * @param k
+     * @return
+     */
     private double kth(int[] A, int ia, int sa, int[] B, int ib, int sb, int k) {
     	if (sa > sb) {
     		return kth(B, ib, sb, A, ia, sa, k);

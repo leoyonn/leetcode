@@ -1,5 +1,19 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q01x.q013_roman_int;
 
+/**
+ * <pre>
+ * Roman to Integer 339 / 754
+ * Given a roman numeral, convert it to an integer.
+ * Input is guaranteed to be within the range from 1 to 3999.
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();

@@ -6,6 +6,11 @@
 package q02x.q028_divide;
 
 /**
+ * <pre>
+ * Divide Two Integers 494 / 1908
+ * Divide two integers without using multiplication, division and mod operator.
+ * </pre>
+ * 
  * @author leo
  */
 public class Solution {

@@ -1,5 +1,21 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q00x.q007_reverse_int;
 
+/**
+ * <pre>
+ * Reverse IntegerDec 26 '11685 / 1224
+ * Reverse digits of an integer.
+ * 
+ * Example1: x = 123, return 321
+ * Example2: x = -123, return -321
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();

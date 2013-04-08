@@ -1,6 +1,18 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q01x.q014_longest_common_prefix;
 
-
+/**
+ * <pre>
+ * Longest Common Prefix 500 / 1487
+ * Write a function to find the longest common prefix string amongst an array of strings.
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();

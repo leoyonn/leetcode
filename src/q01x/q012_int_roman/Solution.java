@@ -1,5 +1,19 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q01x.q012_int_roman;
 
+/**
+ * <pre>
+ * Integer to Roman 320 / 755
+ * Given an integer, convert it to a roman numeral.
+ * Input is guaranteed to be within the range from 1 to 3999.
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();
@@ -8,7 +22,7 @@ public class Solution {
 	}
 
     public String intToRoman(int num) {
-    	int m= num / 1000, 
+    	int m = num / 1000, 
     	c = (num %= 1000) / 100,
     	x = (num %= 100) / 10,
     	i = num % 10;

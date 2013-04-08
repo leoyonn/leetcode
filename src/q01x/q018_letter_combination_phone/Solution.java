@@ -1,9 +1,27 @@
+/**
+ * Solution.java
+ * @author leo
+ * @date 2013-3-21
+ */
 package q01x.q018_letter_combination_phone;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * <pre>
+ * Letter Combinations of a Phone Number 383 / 1044
+ * Given a digit string, return all possible letter combinations that the number could represent.
+ * A mapping of digit to letters (just like on the telephone buttons) is given below.
+ * 
+ * Input:Digit string "23"
+ * Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+ * Note:
+ * Although the above answer is in lexicographical order, your answer could be in any order you want.
+ * </pre>
+ * 
+ * @author leo
+ */
 public class Solution {
 	public static void main(String [] args) {
 		Solution s = new Solution();
