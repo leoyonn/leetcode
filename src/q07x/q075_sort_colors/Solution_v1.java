@@ -7,7 +7,7 @@ package q07x.q075_sort_colors;
 
 /**
  * <pre>
- * Sort ColorsApr 9 '12335 / 830
+ * Sort Colors 335 / 830
  * Given an array with n objects colored red, white or blue,
  *  sort them so that objects of the same color are adjacent,
  *  with the colors in the order red, white and blue.

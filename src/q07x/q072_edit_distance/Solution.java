@@ -34,7 +34,7 @@ public class Solution {
             return word1.length();
         }
         char[] w1 = word1.toCharArray(), w2 = word2.toCharArray();
-        int[][] d = new int[w1.length + 1][w2.length + 2];
+        int[][] d = new int[w1.length + 1][w2.length + 1];
         for (int j = 0; j <= w2.length; j ++) {
             d[0][j] = j;
         }

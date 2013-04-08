@@ -7,7 +7,7 @@ package q06x.q060_rotate_list;
 
 /**
  * <pre>
- * Rotate ListMar 28 '12274 / 932
+ * Rotate List 274 / 932
  * Given a list, rotate the list to the right by k places, where k is non-negative.
  * 
  * For example:

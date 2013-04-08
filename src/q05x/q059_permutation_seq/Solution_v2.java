@@ -10,7 +10,7 @@ package q05x.q059_permutation_seq;
 
 /**
  * <pre>
- * Permutation SequenceMar 28 '12149 / 579
+ * Permutation Sequence 149 / 579
  * The set [1,2,3,бн,n] contains a total of n! unique permutations.
  * 
  * By listing and labeling all of the permutations in order,

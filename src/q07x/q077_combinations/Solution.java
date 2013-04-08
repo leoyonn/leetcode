@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 /**
  * <pre>
- * CombinationsApr 18 '12366 / 848
+ * Combinations 366 / 848
  * Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
  * 
  * For example,
