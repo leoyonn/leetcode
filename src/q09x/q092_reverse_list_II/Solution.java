@@ -5,7 +5,6 @@
  */
 package q09x.q092_reverse_list_II;
 
-
 /**
  * <pre>
  * Reverse Linked List II 484 / 1487
