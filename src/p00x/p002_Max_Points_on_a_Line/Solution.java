@@ -67,7 +67,6 @@ public class Solution {
             if (maxk < dup + 1) {
                 maxk = dup + 1;
             }
-            System.out.println(kcount + ", " + dup);
             for (int c : kcount.values()) {
                 int k = dup + c + 1;
                 if (k > maxk) {
